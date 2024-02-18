@@ -36,3 +36,28 @@ body {
     font-weight: 800;
     font-style: normal;
 }
+
+header {
+
+
+}
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px){
+
+}
