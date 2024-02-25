@@ -1,9 +1,9 @@
 body {
     background-color: #fff;
     color: #000;
-    font-family: "Assistant", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: auto;
 }
 
 .assistant-2 {
@@ -38,13 +38,101 @@ body {
 }
 
 header {
-
+    background-color: #fff;
+    color: #c4c4c4;
+    height: 100px;
+    margin: 0;
+    font-size: x-large;
+    border: 1px solid; 
+    border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.123);
 
 }
 .header-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-family: Protest Revolution, sans-serif; 
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding: 0px;
+    margin: 0px;
 
+}
+.header a {
+    text-decoration: none;
+    color: #b5b5b5;
+}
+
+li {
+    list-style: none;
+    color: #000000;
+
+}
+.small-screen-menu {
+    display: inline;
+}
+.menu-icon {
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 50px;
+    background-color: #00000000;
+    position: absolute;
+    padding-left: 20px;
+    margin: 5px;
+    z-index: 1001; 
+    top: 0;
+    left: 0;
+    border-radius: 7px;
+}
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #0A3641;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bar:nth-child(1) {
+    top: 25%;
+}
+.bar:nth-child(3) {
+    top: 75%;
+}
+#menu-toggle {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.menu-icon:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.246);
+
+}
+#menu-toggle:checked ~ .burger-menu .nav-links {
+    display: block; 
+    flex-direction: column; 
+}
+
+
+
+
+.main {
+    margin: 30px;
+    text-align: center;
+    font-family: Josefin 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -52,12 +140,53 @@ header {
 
 
 
+footer {
+    background-color: #fff;
+    color: #b8b8b8;
+    height: 150px;
+    border: 2px solid ;
+    box-shadow: 0px 2px 5px rgba(0.123, 0.123, 0.123, 0.123);
+}
 
+.footer-container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+}
+.footer-1 {
+    min-width: 200px;
+}
+.footer-2 {
+    min-width: 200px;
 
+}
+.footer-3 {
+    min-width: 200px;
 
+}
+.footer-4 {
+    min-width: 200px;
 
+}
 
-
+@media (max-width: 800px){
+    .header-container {
+        display: none;
+    }
+    header{
+        height: 60px;
+    }
+    .footer-container {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 @media (min-width: 800px){
-
+    .small-screen-menu {
+        display: none;
+    }
 }
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
