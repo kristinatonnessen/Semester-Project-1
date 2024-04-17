@@ -1,40 +1,10 @@
 body {
     background-color: #fff;
     color: #000;
+    font-family: sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: auto;
-}
-
-.assistant-2 {
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-.assistant-3 {
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-.assistant-5 {
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-}
-.assistant-6 {
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-.assistant-7 {
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
-.assistant-8 {
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
 }
 
 header {
@@ -125,20 +95,62 @@ li {
     display: block; 
     flex-direction: column; 
 }
-
-
-
-
-.main {
-    margin: 30px;
-    text-align: center;
-    font-family: Josefin 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.logo{
+    justify-content: start;
+    max-width: 100px;
 }
 
 
 
+.main {
+    text-align: center;
+}
 
+.explore-together{
+    width: 100%;
+}
+.index-info{
+    margin: 50px;
+}
 
+.exhib-section{
+    color: #fff;
+    font-weight: 200;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+
+}
+.exhib-preview{
+    background-color: #000;
+    margin: 20px;
+    max-width: 250px;
+}
+.button1{
+    color: #000;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0.123, 0.123, 0.123, 0.123);
+    text-decoration: none;
+    padding: 10px; padding-left: 20px; padding-right: 20px;
+}
+
+.tour-section{
+    margin-top:  50px;
+}
+.tour-school{
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+.tour-group{
+    margin: 50px;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(253, 130, 110, 1);
+
+}
 
 footer {
     background-color: #fff;
