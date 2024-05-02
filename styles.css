@@ -39,7 +39,8 @@ header {
     color: #000000;
 }
 .header a:hover {
-    color: #AFE7FF;
+    color: #91deff;
+    text-shadow:  0px 1px 7px #000;
     transition: color 0.15s ease;;
     
 }
@@ -182,6 +183,11 @@ p{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.374);
     border-radius: 5px;
     border: 2px #000 solid;
+}
+.exhib-preview:hover{
+    color: #AFE7FF;
+    text-shadow:  5px 3px 7px #000;
+    transition: 0.3s ease;
 }
 .exhib-preview > div{
     position: absolute;
