@@ -40,7 +40,6 @@ header {
 }
 .header a:hover {
     color: #91deff;
-    text-shadow:  0px 1px 7px #000;
     transition: color 0.15s ease;;
     
 }
