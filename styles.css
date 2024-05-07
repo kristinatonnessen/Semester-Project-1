@@ -110,9 +110,6 @@ li {
     flex-direction: column; 
 }
 
-
-
-
 .main {
     text-align: center;
 }
@@ -535,8 +532,6 @@ footer {
 @media (max-width: 825px){
     .header-container {
         display: none;
-    }
-    header{
     }
     .explore-together{
         font-size: xx-large;
