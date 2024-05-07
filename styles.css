@@ -423,20 +423,16 @@ textarea:focus {
     margin: 50px;
 }
 .exhibition{
-    box-shadow: 0 2px 5px #696969;
-    border-radius: 20px;
     color: #696969;
-    transition: 0.2s;
+    transition: 0.3s;
     margin-bottom: 30px;
 }
 .exhibition:hover{
     color: #000000;
-    transition: 0.2s;
-    box-shadow: 0 4px 6px #696969;
+    transition: 0.3s;
 }
 .exhibition-img{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     box-shadow: 0 2px 5px #696969;
 }
