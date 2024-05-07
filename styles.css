@@ -283,7 +283,7 @@ p{
 .inv-img1{
     grid-column: 3 / -1;
     width: 300px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px #000;
     margin-top: 30px;
     margin-left: 10px;
@@ -295,9 +295,11 @@ p{
 .inv-img2{
     grid-column: 1 / 2;
     width: 300px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px #000;
     margin-top: 50px;
+    margin-right: 10px;
+
     
 }
 .involved-info3{
@@ -306,8 +308,9 @@ p{
 .inv-img3{
     grid-column: 3 / -1;
     width: 300px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px #000;
+    margin-left: 10px;
     
 }
 .border-involved{
@@ -516,6 +519,9 @@ footer {
     }
     .inv-img1{
         display: none;
+    }
+    .inv-img2, .inv-img3{
+        width: 100%;
     }
     h2{
         text-align: center;
