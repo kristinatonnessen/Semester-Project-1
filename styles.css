@@ -447,6 +447,15 @@ textarea:focus {
     text-align: justify;
 }
 
+
+                        /* Terms and Conditions */
+.terms-privacy-section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.text-terms-privacy{
+
+}
                         /*FOOTER*/
 footer {
     background-color: #fff;
@@ -482,8 +491,10 @@ footer {
     text-decoration: none;
     color: #000;
 }
+
+                        /* MEDIA */
 @media (max-width: 1010px) {
-    .tour-section{
+    .tour-section, .involved-info{
         display: flex;
         flex-wrap:wrap;
         justify-content: center;
@@ -503,9 +514,19 @@ footer {
         height: 250px;
         margin-top: 40px; margin-bottom: 20px;
         justify-content: center;
-        
     }
-
+    .footer-1, .footer-2, .footer-3{
+        text-align: center;
+    }
+    .inv-img1{
+        display: none;
+    }
+    h2{
+        text-align: center;
+    }
+    h1{
+        font-size: larger;
+    }
 }
 
 @media (max-width: 825px){
