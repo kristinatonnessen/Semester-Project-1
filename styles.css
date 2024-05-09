@@ -448,7 +448,7 @@ textarea:focus, input:focus {
 
                         /* DIV */
 .center-container{
-    margin-left: 50px;
+    margin-left: 50px; margin-right: 50px;
     margin-bottom: 30px
 }
 
@@ -549,7 +549,9 @@ footer {
     .explore-together{
         font-size: xx-large;
     }
-    
+    .exhibition-section{
+        margin: 20px;
+    }
     .footer-container {
         justify-content: center;
         display: flex;
