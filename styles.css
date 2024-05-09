@@ -60,7 +60,7 @@ li {
     height: 50px;
     background-color: #00000000;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 50px;
     margin: 5px;
     z-index: 1001; 
     top: 0;
@@ -70,11 +70,12 @@ li {
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #AFE7FF;
+    background-color: #000;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
 .bar:nth-child(1) {
     top: 25%;
@@ -496,14 +497,6 @@ footer {
 
                         /* MEDIA */
 @media (max-width: 1010px) {
-    .header-container a{
-        color: #AFE7FF;
-        text-shadow: 0 2px 3px#696969;
-    }
-    header{
-        background-color: #000;
-        border-bottom: #000;
-    }
     .logo{
         display: none;
     }
@@ -548,7 +541,7 @@ footer {
     }
 }
 
-@media (max-width: 825px){
+@media (max-width: 831px){
     .header-container {
         display: none;
     }
@@ -568,7 +561,8 @@ footer {
 
     }
 }
-@media (min-width: 825px){
+@media (min-width: 831px){
+    
     .small-screen-menu {
         display: none;
     }
