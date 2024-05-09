@@ -65,13 +65,12 @@ li {
     z-index: 1001; 
     top: 0;
     left: 0;
-    border-radius: 7px;
 }
 .bar {
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #000000;
+    background-color: #AFE7FF;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -215,7 +214,7 @@ p{
     background-image: url(images/preview-exhib/preview-4.png);
 }
 .exhib-preview5::before{
-    background-image: url(images/preview-exhib/preview-5.png);
+    background-image: url(images/preview-exhib/robotics-and-ai3.png);
 }
 
 .button1{
@@ -314,7 +313,7 @@ p{
 }
                         /* CONTACT PAGE */
 .contact-us{
-    background-image: url(images/museum_header.jpg);
+    background-image: url(images/white-entrance.png);
 }
 
 .visit-section{
@@ -353,52 +352,55 @@ p{
 
 .contact-section{
     display: grid;
-    margin-top: 50px; margin-bottom: 50px;
+    margin: 20px; margin-left: 100px; margin-right: 100px;
     justify-content: center;
+    background-color: #AFE7FF;
+    padding-bottom: 20px;
+
 }
-form input, form textarea {
-    width: 100%;
-    height: 50px;
-    font-size: larger;
+input, textarea {
+    width: 95%;
+    height: 20px;
+    font-family: sans-serif;
+    font-size: large;
     font-weight: 200;
     text-align: start; 
     padding: 5px;
-    border: 2px solid #ccc;
+    border: 1px solid #555555;
     border-radius: 3px;
+    background-color: #AFE7FF;
+    box-shadow: inset 0 0.4px 1px #555555;
 }
 
 label {
     display: block;
+    font-weight: 400;
 }
 textarea {
-    width: 100%;
     height: 200px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
     resize: vertical;
-    font-size: 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.3;
+    line-height: 1.1;
 }
 
 textarea::placeholder {
-    color: #999;
+    color: #555555;
 }
 
-
-textarea:focus {
+textarea:focus, input:focus {
     border-color: #000;
     outline: none; 
 }
 .form-button {
     display: block;
     text-decoration: none;
-    color: #a2a2a2;
-    border: 0.5px solid #a2a2a2; border-radius: 3px;
+    font-weight: 500;
+    color: #555555;
+    border: 1px solid #555555; border-radius: 3px;
+    box-shadow: 1px 2px 5px #555555;
     width: 130px;
     text-align: center;
     padding: 5px;
+    justify-self: center;
 }
 .form-button:hover{
     color: #000;
@@ -412,7 +414,7 @@ textarea:focus {
 
                         /*EXHIBITION PAGE*/
 .exhibition-banner{
-    background-image: url(images/exhib-header.jpg);
+    background-image: url(images/trex.png);
 }
 
 .exhibition-section{
@@ -426,6 +428,9 @@ textarea:focus {
 .exhibition:hover{
     color: #000000;
     transition: 0.3s;
+}
+.exhibition h2{
+    margin-top: 0;
 }
 .exhibition-img{
     border-radius: 10px;
@@ -442,7 +447,7 @@ textarea:focus {
                         /* DIV */
 .center-container{
     margin-left: 50px;
-
+    margin-bottom: 30px
 }
 
                         /* Terms and Conditions */
@@ -491,6 +496,17 @@ footer {
 
                         /* MEDIA */
 @media (max-width: 1010px) {
+    .header-container a{
+        color: #AFE7FF;
+        text-shadow: 0 2px 3px#696969;
+    }
+    header{
+        background-color: #000;
+        border-bottom: #000;
+    }
+    .logo{
+        display: none;
+    }
     .tour-section, .involved-info{
         display: flex;
         flex-wrap:wrap;
@@ -511,6 +527,9 @@ footer {
         height: 250px;
         margin-top: 40px; margin-bottom: 20px;
         justify-content: center;
+    }
+    .contact-section{
+        margin-left: 0px; margin-right: 0px;
     }
     .footer-1, .footer-2, .footer-3{
         text-align: center;
@@ -544,8 +563,9 @@ footer {
     }
 }
 @media (max-width:500px){
-    .tour-school-img,.tour-group-img{
-        display: none;
+    .tour-school-img img,.tour-group-img img{
+        max-width: 100%;
+
     }
 }
 @media (min-width: 825px){
