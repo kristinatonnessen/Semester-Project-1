@@ -13,7 +13,6 @@ header {
     margin: 0;
     font-size: x-large;
     border-bottom: 1px solid; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.123);
 }
 .logo{
     padding: 5px;
@@ -48,7 +47,6 @@ li {
     list-style: none;
     color: #000000;
     padding-top: 20px;
-
 }
 .small-screen-menu {
     display: inline;
@@ -561,6 +559,18 @@ footer {
 @media (max-width:500px){
     .tour-school-img img,.tour-group-img img{
         max-width: 100%;
+    }
+    .visit-g1, .visit-g3{
+        padding: 0px;
+    }
+    .visit-g2 iframe div{
+        justify-items: center;
+    }
+    .involved-info{
+        margin: 20px;
+    }
+    .inv-img2{
+        margin-top: 0;
     }
     
 }
