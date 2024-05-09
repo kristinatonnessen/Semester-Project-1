@@ -161,7 +161,7 @@ p{
 }
 
 .exhib-section{
-    color: #fff;
+    color: #efefef;
     background-color: #000000;
     font-weight: 200;
     display: flex;
@@ -184,7 +184,7 @@ p{
 .exhib-preview:hover{
     color: #AFE7FF;
     text-shadow:  5px 3px 7px #000;
-    transition: 0.3s ease;
+    transition: color 0.3s ease;
 }
 .exhib-preview > div{
     position: absolute;
@@ -357,6 +357,7 @@ p{
     justify-content: center;
     background-color: #AFE7FF;
     padding-bottom: 20px;
+    border-radius: 5px;
 
 }
 input, textarea {
@@ -475,24 +476,24 @@ footer {
     text-align: center;
     gap: 20px;
 }
-.footer-container p{
-   margin: 0px; 
-}
 .footer-1 {
     min-width: 200px;
     text-align: start;
 }
 .footer-2 {
     min-width: 200px;
-
 }
+.footer-2 p{
+    margin: 0px; 
+ }
 .footer-3 {
     min-width: 200px;
     text-align: end;
 }
-.footer-3 a{
-    text-decoration: none;
+.footer-3 a, div{
     color: #000;
+    margin-bottom: 15px;
+
 }
 
                         /* MEDIA */
@@ -558,8 +559,8 @@ footer {
 @media (max-width:500px){
     .tour-school-img img,.tour-group-img img{
         max-width: 100%;
-
     }
+    
 }
 @media (min-width: 831px){
     
