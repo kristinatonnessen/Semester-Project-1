@@ -38,7 +38,7 @@ header {
     color: #696969;
 }
 .header a:hover {
-    color: #000;
+    color: #AFE7FF;
     text-shadow:  0px 0.1px 1px #000;
     transition: color 0.15s ease;;
     
@@ -88,7 +88,8 @@ li {
     left: 0;
     background-color: #ffffffe9; 
     padding-top: 60px;
-    padding-left: 20px; padding-right: 30px;
+    padding-left: 20px; 
+    padding-right: 30px;
     z-index: 1000; 
     flex-direction: column;
     text-align: start;
@@ -117,7 +118,8 @@ h1{
     text-shadow:  5px 5px 5px rgba(0, 0, 0, 0.374);
 
     margin: 0;
-    padding: 20px; padding-top: 80px;
+    padding: 20px; 
+    padding-top: 80px;
 }
 h2{
     font-weight: 600;
@@ -165,13 +167,13 @@ p{
 }
 
 .exhib-section{
-    color: #fff;
     font-weight: 200;
     display: flex;
     flex-wrap: wrap;
     overflow-x: auto; 
     justify-content: center;
-    margin: 0px; margin-bottom: 30px;
+    margin: 0px; 
+    margin-bottom: 30px;
     background-color: #000;
 }
 .exhib-preview{
@@ -185,7 +187,7 @@ p{
 }
 
 .exhib-preview div{
-    color: #fff;
+    color: #AFE7FF;
     text-shadow:  0px 1px 7px #000;
     position: absolute;
     bottom: 30px;
@@ -222,7 +224,9 @@ p{
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0.123, 0.123, 0.123, 0.123);
     text-decoration: none;
-    padding: 10px; padding-left: 20px; padding-right: 20px;
+    padding: 10px; 
+    padding-left: 20px; 
+    padding-right: 20px;
     transition: background-color 0.4s ease;
 }
 .button1:hover{
@@ -243,14 +247,16 @@ p{
     text-align: justify;
     padding: 10px;
     background-color: #AFE7FF;
-    border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
 }
 .tour-school-img{
     grid-column: 1 / 2;
     justify-content: left;
     padding: 10px;
     background-color: #AFE7FF;
-    border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
 }
 .tour-school-img img{
     max-width: 90%;
@@ -264,14 +270,16 @@ p{
     padding: 10px;
     text-align: justify;
     background-color: #AFE7FF;
-    border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
 
 }
 .tour-group-img{
     grid-column: 4 / -1;
     background-color: #AFE7FF;
     padding: 5px;
-    border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
 
 }
 .tour-group-img img{
@@ -295,11 +303,13 @@ p{
 .involved-info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 50px; margin-right: 50px;
+    margin-left: 50px; 
+    margin-right: 50px;
 }
 .involved-info1{
     grid-column: 1 / 3;
     text-align: start;
+    border-bottom: 1px solid #AFE7FF;
 }
 .inv-img1{
     grid-column: 3 / -1;
@@ -312,6 +322,7 @@ p{
 .involved-info2{
     grid-column: 2 / -1;
     text-align: justify;
+    border-bottom: 1px solid #AFE7FF;
 }
 .inv-img2{
     grid-column: 1 / 2;
@@ -360,6 +371,7 @@ p{
     margin-top: 20px;
     padding: 10px;
     border-top: 1px solid #AFE7FF;
+    border-bottom: 1px solid #AFE7FF;
 
 }
 
@@ -374,7 +386,9 @@ p{
 
 .contact-section{
     display: grid;
-    margin: 20px; margin-left: 100px; margin-right: 100px;
+    margin: 20px; 
+    margin-left: 100px; 
+    margin-right: 100px;
     justify-content: center;
     background-color: #AFE7FF;
     padding-bottom: 20px;
@@ -418,7 +432,8 @@ textarea:focus, input:focus {
     text-decoration: none;
     font-weight: 500;
     color: #555555;
-    border: 1px solid #555555; border-radius: 3px;
+    border: 1px solid #555555; 
+    border-radius: 3px;
     box-shadow: 1px 2px 5px #555555;
     width: 130px;
     text-align: center;
@@ -492,7 +507,9 @@ footer {
 }
 
 .footer-container {
-    margin-bottom: 20px; margin-left: 30px; margin-right: 30px;
+    margin-bottom: 20px; 
+    margin-left: 30px; 
+    margin-right: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
@@ -552,11 +569,13 @@ footer {
     .google-map{
         min-width: 100%;
         height: 250px;
-        margin-top: 40px; margin-bottom: 20px;
+        margin-top: 40px; 
+        margin-bottom: 20px;
         justify-content: center;
     }
     .contact-section{
-        margin-left: 0px; margin-right: 0px;
+        margin-left: 0px; 
+        margin-right: 0px;
     }
     .footer-1, .footer-2, .footer-3{
         text-align: center;
@@ -581,6 +600,9 @@ footer {
     }
     .explore-together{
         font-size: xx-large;
+    }
+    .exhib-section{
+        background-color: #fff;
     }
     .exhibition-section{
         margin: 20px;
