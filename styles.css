@@ -279,19 +279,18 @@ p{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-
-
 }
                         /* CONTRIBUTION PAGE*/
 .top-banner{
-    color: #fff;
+    color: #AFE7FF;
+    text-shadow: #000;
     text-align: center;
     font-size: xxx-large;
     height: 230px;
     max-width: 100%;
 }
 .get-involved{
-    background-image: url(images/kid_math_board.jpg);
+    background-image: url(images/top-banner-contributions.png);
 }
 .involved-info{
     display: grid;
@@ -319,9 +318,7 @@ p{
     width: 97%;
     border-radius: 10px;
     box-shadow: 0 2px 5px #000;
-    margin-top: 50px;
-
-    
+    margin-top: 50px; 
 }
 .involved-info3{
     grid-column: 1 / 3;
@@ -334,9 +331,7 @@ p{
     margin-left: 10px;
     
 }
-.border-involved{
-    box-shadow: #000;
-}
+
                         /* CONTACT PAGE */
 .contact-us{
     background-image: url(images/white-entrance.png);
@@ -364,6 +359,7 @@ p{
     grid-column: 1 / -1;
     margin-top: 20px;
     padding: 10px;
+    border-top: 1px solid #AFE7FF;
 
 }
 
@@ -488,10 +484,10 @@ textarea:focus, input:focus {
 }
                         /*FOOTER*/
 footer {
-    background-color: #fff;
     color: #000000;
     min-height: 150px;
-    border-top: 1px solid ;
+    border-top: 1px solid #AFE7FF;
+    box-shadow: inset 0 0px 3px #AFE7FF;
     margin-top: 50px;
 }
 
