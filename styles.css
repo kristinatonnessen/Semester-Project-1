@@ -277,7 +277,7 @@ p{
 .tour-group-img{
     grid-column: 4 / -1;
     background-color: #AFE7FF;
-    padding: 5px;
+    padding: 10px;
     border-top-right-radius: 10px; 
     border-bottom-right-radius: 10px;
 
@@ -480,6 +480,7 @@ textarea:focus, input:focus {
     padding-right: 20px;
     padding-bottom: 10px;
     text-align: justify;
+    border-bottom: 1px solid #AFE7FF;
 }
 
                         /* DIV */
