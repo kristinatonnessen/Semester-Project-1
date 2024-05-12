@@ -119,8 +119,7 @@ li {
 
 h1{
     font-weight: 700;
-    text-shadow:  5px 5px 5px rgba(0, 0, 0, 0.374);
-
+    text-shadow:  2px 3px 4px #000;
     margin: 0;
     padding: 20px; 
     padding-top: 80px;
@@ -159,8 +158,6 @@ p{
     color: #AFE7FF;
     text-align: right;
     font-size: xxx-large;
-    text-shadow: 1px 2px 3px#000;
-    transition: 0.3s ease-in;
 }
 
 .index-info{
@@ -196,9 +193,7 @@ p{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.374);
     border-radius: 5px;
     transition: 0.2s ease;
-
 }
-
 .exhib-preview div{
     color: #AFE7FF;
     text-shadow:  0px 1px 7px #000;
@@ -235,6 +230,7 @@ p{
 .exhib-preview5::before{
     background-image: url(images/preview-exhib/robotics-and-ai3.png);
 }
+
 .button1{
     color: #000;
     border: 1px solid ;
@@ -364,7 +360,6 @@ p{
 .contact-us{
     background-image: url(images/white-entrance.png);
 }
-
 .visit-section{
     margin: 50px;
 }
@@ -388,7 +383,6 @@ p{
     border-top: 1px solid #AFE7FF;
     border-bottom: 1px solid #AFE7FF;
 }
-
 .google-map{
     border: 0.5px solid #a2a2a2;
     border-radius: 5px;
@@ -498,6 +492,7 @@ textarea:focus, input:focus {
 .exhib-text h5{
     font-style: italic;
 }
+
                         /* DIV */
 .center-container{
     margin-left: 50px; 
@@ -505,7 +500,7 @@ textarea:focus, input:focus {
     margin-bottom: 30px
 }
 
-                        /* Terms and Conditions */
+                        /* Privacy Policy - Terms and Conditions */
 .terms-privacy-section{
     margin-left: 50px;
     margin-right: 50px;
@@ -513,6 +508,7 @@ textarea:focus, input:focus {
 .terms-privacy-section p{
     font-size: small;
 }
+
                         /*FOOTER*/
 footer {
     color: #000000;
